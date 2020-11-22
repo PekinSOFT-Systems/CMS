@@ -25,6 +25,8 @@ public class MainFrame extends javax.swing.JFrame {
      */
     public MainFrame() {
         initComponents();
+        
+        fileNewEmployeeMenuItem.setVisible(false);
     }
     
     public static void setTip(String tip) {
